@@ -1,0 +1,84 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fafafa;
+
+  .logo-area {
+    width: 90px;
+    height: 90px;
+    background: #ededed;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #bdbdbd;
+    margin-bottom: 2rem;
+  }
+
+  .login-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.2rem 0 0.5rem 0;
+    font-size: 0.95rem;
+    color: #bdbdbd;
+    gap: 0.7rem;
+    a {
+      color: #bdbdbd;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+    .divider {
+      color: #bdbdbd;
+    }
+  }
+
+  .separator {
+    width: 100%;
+    max-width: 340px;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+    line-height: 0.1em;
+    margin: 1.2rem 0 0.7rem 0;
+    span {
+      background: #fafafa;
+      padding: 0 10px;
+      color: #bdbdbd;
+      font-size: 0.9rem;
+    }
+  }
+
+  .sns-login-label {
+    color: #bdbdbd;
+    font-size: 0.95rem;
+    margin-bottom: 0.7rem;
+    text-align: center;
+  }
+  .sns-login-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-bottom: 0.5rem;
+    .sns-btn {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.7rem;
+      background: #ededed;
+      cursor: pointer;
+      transition: box-shadow 0.2s;
+      &:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.10); }
+    }
+    .kakao { background: #fee500; color: #3c1e1e; }
+    .naver { background: #03c75a; color: #fff; }
+    .apple { background: #000; color: #fff; }
+  }
+} 
