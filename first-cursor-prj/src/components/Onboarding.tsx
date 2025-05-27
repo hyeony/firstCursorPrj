@@ -16,7 +16,7 @@ const slides = [
 ];
 
 const VISIBLE = 1; // 양옆에 1장씩만 보이게
-const X_GAP = 240; // 카드 간 X축 간격
+const X_GAP = 240; // 카드 간 X축 간격 
 const Y_CURVE = 12; // 곡선 깊이(아주 약간)
 const ROTATE_STEP = 4; // 각도(아주 약간)
 const SCALE_SIDE = 0.96;
